@@ -4,15 +4,21 @@
 
         <web-app>
             <display-name>Archetype Created Web Application</display-name>
-         
             <servlet>
                 <servlet-name>HelloServlet</servlet-name>
                 <servlet-class>org.mycompany.myname.HelloServlet</servlet-class>
+            </servlet>
+            <servlet>
+                <servlet-name>FormServlet</servlet-name>
+                <servlet-class>org.mycompany.myname.FormServlet</servlet-class>
             </servlet>
          
             <servlet-mapping>
                 <servlet-name>HelloServlet</servlet-name>
                 <url-pattern>/servlet</url-pattern>
             </servlet-mapping>
-         
+            <servlet-mapping>
+                <servlet-name>FormServlet</servlet-name>
+                <url-pattern>/servlet2</url-pattern>
+            </servlet-mapping>
         </web-app>

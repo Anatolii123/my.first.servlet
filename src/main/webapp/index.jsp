@@ -3,6 +3,6 @@
         <h2>
             Hello, user!
         </h2>
-        <a href="servlet">Click here to see servlet</a>
+        <a href="servlet">Click here to fill in the form</a>
     </body>
 </html>
